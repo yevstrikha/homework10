@@ -34,7 +34,8 @@ a{
     color: #1F1F1F;
 }
 .free_delivery p span{
-    text-align: right;
+
+;
 }
 .free_delivery span:after {
     height: 26px;
@@ -43,7 +44,11 @@ a{
     font-size: 25px;
     line-height: 21px;
     font-family: "Font Awesome 5 Free";
-    content: "\f00d";}
+    content: "\f00d";
+    display: inline-block;
+    position:absolute;
+    /*top: 10;*/
+    right: 15px}
 
 header{
     display: flex;
