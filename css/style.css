@@ -19,7 +19,6 @@ a{
     width: 100%;
     margin: 0 auto;
 }
-
 .free_delivery{
     background-color: #C2E8CE;
     text-align: center;
@@ -34,7 +33,10 @@ a{
     line-height: 21px;
     color: #1F1F1F;
 }
+.free_delivery p span{
 
+;
+}
 .free_delivery span:after {
     height: 26px;
     width: 36px;
